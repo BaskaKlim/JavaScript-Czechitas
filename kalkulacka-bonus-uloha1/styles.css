@@ -1,0 +1,57 @@
+html {
+    background: rgb(34, 17, 66);
+    background-image:
+      radial-gradient(60% 40% ellipse at center top, rgb(47, 44, 94) 0%, rgba(0,0,0,0) 100%),
+      radial-gradient(60% 50% ellipse at center bottom, rgb(48, 22, 48) 0%, rgb(34, 18, 65) 100%);
+    background-attachment: fixed;
+    color: #6cacc5;
+  }
+  
+  body {
+    color: rgb(108, 172, 197);
+    font: 300 18px/1.6 "Source Sans Pro",sans-serif;
+    margin: 0;
+    padding: 5em 0 2em;
+    text-align: center;
+  }
+
+h1{
+    font-weight: 2000;
+margin-left: 10px;
+}
+
+.calculator {
+    font-size: 28px;
+    margin: 0 auto;
+    width: 10em;
+}
+    
+
+  .viewer {
+    color: #c97874;
+    float: left;
+    margin-left: 30px;
+    line-height: 3em;
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+   
+  }
+  
+  button {
+    border: 0;
+    background: rgba(42,50,113, .28);
+    color: #6cacc5;
+    cursor: pointer;
+    float: left;
+    font: inherit;
+    margin: 0.25em;
+    width: 2em;
+    height: 2em;
+    transition: all 0.5s;
+
+  }
+  .key--equal {
+    width: 9.5em; 
+    text-align: center;
+  }
